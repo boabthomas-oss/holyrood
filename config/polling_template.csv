@@ -1,0 +1,2 @@
+pollster,fieldwork_start,fieldwork_end,sample_size,SNP,LAB,CON,LD,GREEN,REF
+Example Pollster,2025-01-01,2025-01-07,1000,35,29,19,8,6,3
