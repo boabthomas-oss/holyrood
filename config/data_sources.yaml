@@ -1,0 +1,33 @@
+# Paths are relative to the repository root unless absolute.
+# Update the survey section to match the SES dataset you download.
+
+survey:
+  path: data/SES_2024.csv
+  format: csv
+  columns:
+    respondent_id: RESPONDENT_ID
+    age: AGE
+    gender: GENDER
+    region: REGION
+    vote_intent: VOTE_INTENT
+
+polling:
+  path: data/polls.csv
+  date_column: fieldwork_end
+  sample_size_column: sample_size
+
+poststrat:
+  path: data/population_benchmarks.csv
+  columns:
+    age_group: age_group
+    gender: gender
+    region: region
+    population: population
+
+parties:
+  - SNP
+  - LAB
+  - CON
+  - LD
+  - GREEN
+  - REF
